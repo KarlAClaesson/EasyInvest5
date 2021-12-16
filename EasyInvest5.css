@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.stako{
+    height: 80px;
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+p {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.info{
+    border: 2.7px solid rebeccapurple;
+    border-radius: 10px;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 20px;
+    height: 52px;
+    
+
+}
+
+body {
+    background-color: white;
+}
+
+
+input {
+    color: white;
+    margin-left: 30%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    height: 35px;
+    width: 40%;
+    border: 2.7px solid rebeccapurple;
+    color: rgb(17, 17, 17);
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 550;
+    transition: 300ms ease-out;
+
+}
+
+input:hover {
+    color: white;
+    background-color: rebeccapurple;
+    text-decoration: none;
+    border: 2.7px solid white;
+    
+}
+
+input:focus{
+    color: white;
+    background-color: rebeccapurple;
+    outline: none;
+    
+}
+
+::placeholder{
+    text-align: center;
+}
+
+input:hover::placeholder{
+    color:white;
+}
+
+input:focus::placeholder{
+    color:white;
+}
+
+button{
+    color: white;
+    margin-left: 30%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    height: 30px;
+    width: 40%;
+    background-color: rebeccapurple;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 550;
+    outline: none;
+    border: none;
+    font-size: 0.9rem;
+    
+}
+
+button:active{
+    /* background-color: white;
+    color: hotpink; */
+    border: 3px solid white;
+}

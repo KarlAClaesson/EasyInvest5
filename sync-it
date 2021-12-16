@@ -1,0 +1,2 @@
+rsync -av --delete /home/karl/2021haustönn/raf/test2/ /home/karl/2020haustönn/vf1/public_html/test2
+#/home/karl/2020haustönn/vf1/sync-it~
