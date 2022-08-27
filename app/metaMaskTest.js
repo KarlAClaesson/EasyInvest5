@@ -115,8 +115,11 @@ window.addEventListener('DOMContentLoaded', function() {
 
   const isMetaMaskInstalled = () => {
     //Have to check the ethereum binding on the window object to see if it's installed
+    console.log('Metamask is installed');
     const { ethereum } = window;
+    console.log('Ethereum window');
     return Boolean(ethereum && ethereum.isMetaMask);
+    
   };
   const MetaMaskClientCheck = () => {
     //Now we check to see if MetaMask is installed
@@ -158,8 +161,6 @@ window.addEventListener('DOMContentLoaded', function() {
   }
   
 
-  
-  
 
 })
 
