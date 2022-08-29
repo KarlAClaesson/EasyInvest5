@@ -1,7 +1,12 @@
-var express = require('express');
-var app = express();
+const express = require('express');
+const path = require('path');
 
-app.use(express.static("index.html"));
+const app = express();
+const port = process.env.PORT || 8080;
 
-app.listen('3000');
-console.log('working on 3000');
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__public, '/index.html'));
+  });
+
+app.listen(port);
+console.log('Server started at http://localhost:' + port);
